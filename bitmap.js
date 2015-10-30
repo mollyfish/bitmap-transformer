@@ -24,7 +24,7 @@ var Bitmap = function(buffer) {
   this.header = this.buffer.readUInt32LE(14);
   this.headerArr = Array.prototype.slice.call(this.buffer, 0, 14);
   this.headerDIB = Array.prototype.slice.call(this.buffer, 14, 55);
-  // what is causing this gap??? Why start at 57???
+  // what is causing this overlap??? Why start at 53???
   this.colorPalette = Array.prototype.slice.call(this.buffer, 53, 181);
   this.binaryData = [];
   this.colorArray = [];
