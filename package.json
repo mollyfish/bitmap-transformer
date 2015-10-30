@@ -1,0 +1,15 @@
+{
+  "name": "bitmap-transformer",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "kent.molly@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "formidable": "^1.0.17"
+  }
+}
